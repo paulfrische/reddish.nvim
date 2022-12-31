@@ -30,6 +30,7 @@ local highlights = {
     Search      = { fg = c.dark2, bg = c.bright3 },
     Substitute  = { fg = c.dark2, bg = c.bright3 },
     Pmenu       = { fg = c.bright3, bg = c.dark3 },
+    PmenuSel       = { fg = c.dark4, bg = c.bright3 },
     Whitespace  = { fg = c.bright2, bg = c.background },
 
     Comment     = { fg = c.bright2, bg = c.background },
@@ -43,6 +44,7 @@ local highlights = {
     Function    = { fg = c.bright2, bg = c.background },
 
     Statement   = { fg = c.normal, bg = c.background },
+    Operator   = { fg = c.bright2, bg = c.background },
 
     PreProc     = { fg = c.normal, bg = c.background },
 
